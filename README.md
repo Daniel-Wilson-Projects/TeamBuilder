@@ -1,11 +1,11 @@
-Project: Team Builder a Hierarchical User & Role Manager (Grails Framework)
+#Project: Team Builder a Hierarchical User & Role Manager (Grails Framework)
 
-Overview
+##Overview
 This project is a Grails Framework application designed to model and manage Users and Roles in a hierarchical, flow‑chart‑style structure. It was originally part of a larger system but has since been excised into a standalone module for experimentation, refactoring, and future reuse.
 
 The application includes the ability for the project itself to manage its own Users and Roles, making it both a demonstration of Grails’ flexibility and a foundation for future plugin‑style development.
 
-Features
+##Features
 Grails-based architecture — Built using Grails conventions, domain classes, services, and controllers.
 
 User & Role hierarchy — Visual, tree-like structure for representing nested roles and organizational relationships.
@@ -18,7 +18,7 @@ Direct SQL JSON search — Enables efficient querying of structured JSON data wi
 
 Modularized from a larger system — Cleaned and separated for standalone development and testing.
 
-Technical Notes
+##Technical Notes
 Oracle JSON Datatype Experimentation
 This project served as a testbed for:
 
@@ -30,7 +30,7 @@ Evaluating performance and indexing behavior
 
 This experimentation informed how JSON-based metadata could be stored and queried in larger enterprise systems.
 
-Project Extraction
+##Project Extraction
 The codebase was originally part of a broader enterprise application. It has been:
 
 Isolated into its own repository
@@ -39,8 +39,8 @@ Cleaned of system-specific dependencies
 
 Retained primarily for architectural reference and future enhancement
 
-Future Plans
-If time allows, the next phase of this project would focus on transforming it into a front-end–driven JavaScript plugin, with the backend becoming optional or replaceable.
+##Future Plans
+If time allows, the next phase of this project would focus on transforming it into a front-end–driven JavaScript plugin, with the backend becoming replaceable, targetable.
 
 Planned improvements include:
 
